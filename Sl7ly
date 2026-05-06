@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>صلّحلي</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;600;800&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin:0;
+    font-family:'Cairo', sans-serif;
+    background:#0b0f1a;
+    color:white;
+}
+
+/* Navbar */
+.navbar {
+    display:flex;
+    justify-content:space-between;
+    padding:20px 40px;
+}
+.logo {
+    color:#d4af37;
+    font-size:28px;
+    font-weight:bold;
+}
+
+/* Hero */
+.hero {
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    padding:60px;
+}
+.hero-text {
+    flex:1;
+}
+.hero h1 {
+    font-size:42px;
+}
+.hero span {
+    color:#d4af37;
+}
+.btn {
+    background:#d4af37;
+    color:black;
+    padding:12px 25px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+    border-radius:6px;
+}
+
+/* Features */
+.features {
+    display:flex;
+    justify-content:space-around;
+    padding:30px;
+    text-align:center;
+}
+
+/* Services */
+.services {
+    padding:50px;
+}
+.services h2 {
+    text-align:center;
+}
+.cards {
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content:center;
+}
+.card {
+    background:#111827;
+    padding:20px;
+    border-radius:12px;
+    width:200px;
+    text-align:center;
+    transition:0.3s;
+}
+.card:hover {
+    transform:translateY(-10px);
+}
+
+/* About */
+.about {
+    padding:50px;
+    text-align:center;
+}
+
+/* Contact */
+.contact {
+    padding:50px;
+    text-align:center;
+}
+input, textarea {
+    width:80%;
+    padding:10px;
+    margin:10px;
+    border-radius:5px;
+    border:none;
+}
+
+/* WhatsApp Button */
+.whatsapp {
+    position:fixed;
+    bottom:20px;
+    left:20px;
+    background:#25D366;
+    color:white;
+    padding:15px;
+    border-radius:50%;
+    font-size:20px;
+    text-decoration:none;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+    <div class="logo">صلّحلي</div>
+    <div>📞 0522995689</div>
+</div>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="hero-text">
+        <h1>كل خدمات الصيانة <br><span>في مكان واحد</span></h1>
+        <p>كهرباء | سباكة | تكييف | أجهزة منزلية | معدات مطاعم</p>
+        <a href="https://wa.me/971522995689">
+            <button class="btn">اطلب خدمة الآن</button>
+        </a>
+    </div>
+</section>
+
+<!-- Features -->
+<div class="features">
+    <div>⚡ سرعة الاستجابة</div>
+    <div>🛠️ فنيين محترفين</div>
+    <div>💰 أسعار مناسبة</div>
+</div>
+
+<!-- Services -->
+<section class="services">
+    <h2>خدماتنا</h2>
+    <div class="cards">
+        <div class="card">🔌 كهرباء</div>
+        <div class="card">🚿 سباكة</div>
+        <div class="card">❄️ تكييف</div>
+        <div class="card">🏠 أجهزة منزلية</div>
+        <div class="card">🍽️ معدات مطاعم</div>
+        <div class="card">🚪 أبواب جراج</div>
+        <div class="card">🧺 تركيب غسالات</div>
+    </div>
+</section>
+
+<!-- About -->
+<section class="about">
+    <h2>من نحن</h2>
+    <p>
+        صلّحلي منصة متخصصة في خدمات الصيانة داخل الإمارات،
+        نقدم حلول احترافية بسرعة وجودة عالية.
+    </p>
+</section>
+
+<!-- Contact -->
+<section class="contact">
+    <h2>اطلب خدمة</h2>
+    <input type="text" placeholder="الاسم"><br>
+    <input type="text" placeholder="رقم الهاتف"><br>
+    <textarea placeholder="اكتب طلبك"></textarea><br>
+    <button class="btn">إرسال</button>
+</section>
+
+<!-- WhatsApp -->
+<a class="whatsapp" href="https://wa.me/971522995689">💬</a>
+
+</body>
+</html>
